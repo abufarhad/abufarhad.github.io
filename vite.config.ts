@@ -2,9 +2,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
 
-// Served from GitHub Pages at /my-portfolio/; dev stays at the root.
-export default defineConfig(({ command, isPreview }) => ({
-  base: command === 'build' || isPreview ? '/my-portfolio/' : '/',
+// Served from GitHub Pages at the domain root (abufarhad.github.io).
+export default defineConfig(() => ({
+  base: '/',
   plugins: [react(), tailwindcss()],
   build: {
     target: 'es2022',

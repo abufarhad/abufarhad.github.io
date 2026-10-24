@@ -32,7 +32,7 @@ export const profile = {
   resume: `${import.meta.env.BASE_URL}Md-Abu-Farhad-Resume.pdf`,
 
   /** Absolute URL of the deployed site, used for SEO / social metadata. */
-  siteUrl: 'https://abufarhad.github.io/my-portfolio/',
+  siteUrl: 'https://abufarhad.github.io/',
 } as const
 
 export const hero = {

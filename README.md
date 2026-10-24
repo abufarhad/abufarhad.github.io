@@ -29,13 +29,13 @@ research and achievements. You don't need to edit any component.
 | Social preview image | `public/og-image.png` (1200×630) |
 | Favicon | `public/favicon.svg` |
 
-> Live at https://abufarhad.github.io/my-portfolio/
+> Live at https://abufarhad.github.io/
 
 ## Deploy
 
-Every push to `main` builds the site with GitHub Actions (`.github/workflows/deploy.yml`) and publishes `dist/` to the `gh-pages` branch, which GitHub Pages serves at https://abufarhad.github.io/my-portfolio/.
+Every push to `main` builds the site with GitHub Actions (`.github/workflows/deploy.yml`) and publishes `dist/` to the `gh-pages` branch, which GitHub Pages serves at https://abufarhad.github.io/.
 
-The production build uses `base: '/my-portfolio/'` (see `vite.config.ts`). If you move to a custom domain or a different repo name, change that value and the URLs in `index.html`.
+The site is served from the domain root (`base: '/'` in `vite.config.ts`) because the repo is named `abufarhad.github.io`. If you rename the repo, set `base` to `'/<repo-name>/'` and update the URLs in `index.html`.
 
 ## Architecture notes
 
