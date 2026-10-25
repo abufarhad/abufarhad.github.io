@@ -100,7 +100,7 @@ export const experience: Role[] = [
     stack: ['Databricks', 'Spark', 'Azure Functions', 'Python'],
   },
   {
-    company: 'Monstarlab Bangladesh',
+    company: 'Monstarlab',
     url: 'https://monstar-lab.com/bd/',
     role: 'Software Engineer II',
     location: 'Dhaka, Bangladesh',
