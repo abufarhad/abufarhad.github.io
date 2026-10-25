@@ -169,7 +169,7 @@ export const projects: Project[] = [
     kind: 'Current · Backend + AI Engineer',
     period: 'May 2025 - Present',
     location: 'London',
-    description: 'Go services that turn AI dash-cam events into live fleet insight and alerts.',
+    description: 'AI video telematics: our Go services turn dash-cam events into live tracking, video evidence and fleet insight.',
     highlights: ['~60% faster trip-end processing (SageMaker)', '~60% higher DB throughput', '~40% lower latency'],
     stack: ['Go', 'Kafka', 'AWS SageMaker', 'PostgreSQL'],
     site: 'https://www.rooya.ai/platform/',
@@ -290,8 +290,9 @@ export const now = {
   role: 'Backend + AI Engineer',
   location: 'London, UK',
   since: 'May 2025',
-  productName: 'Rooya Behaviour Intelligence Platform',
-  description: 'AI dash cams detect risky driving. My Go services turn those events into live fleet insight, video evidence and alerts.',
+  productName: 'Rooya AI Telemetry Platform',
+  description:
+    'AI video telematics for safer, smarter fleets. On-device AI flags risky driving in real time, and our platform turns every event into live tracking, cloud video evidence, driver coaching and fleet-wide risk insight for logistics, construction, transport and public-sector fleets.',
   aiWork: [
     { title: 'On-device AI → backend', body: 'Real-time event ingestion' },
     { title: 'SageMaker pipeline', body: 'Async driver ID, ~60% faster' },
